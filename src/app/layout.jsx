@@ -1,8 +1,8 @@
-import {Inter} from 'next/font/google'
+import {Rubik} from 'next/font/google'
 import './globals.css'
 import TransitionProvider from '@/components/transitionProvider'
 
-const inter = Inter({subsets: ['latin']})
+const rubik = Rubik({subsets: ['latin']})
 
 export const metadata = {
   title: 'Next.js portfolio App',
@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({children}) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={rubik.className}>
         <TransitionProvider>{children}</TransitionProvider>
       </body>
     </html>
