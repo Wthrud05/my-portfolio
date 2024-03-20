@@ -25,7 +25,7 @@ const Slider = ({images}) => {
         >
           {images.map((img) => (
             <div key={img} className="relative w-full h-full">
-              <Image src={img} alt={img} fill sizes="" className="rounded" />
+              <Image src={img} alt={img} fill className="rounded" />
             </div>
           ))}
         </div>
