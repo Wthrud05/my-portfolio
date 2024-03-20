@@ -2,7 +2,7 @@
 
 import {motion} from 'framer-motion'
 
-export default function HomePage() {
+export default function ProjectsPage() {
   return (
     <motion.div
       className="h-full"
@@ -11,7 +11,7 @@ export default function HomePage() {
       transition={{duration: 1}}
     >
       <div className='h-full  flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48"'>
-        HomePage
+        ProjectsPage
       </div>
     </motion.div>
   )
