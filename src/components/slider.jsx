@@ -24,8 +24,8 @@ const Slider = ({images}) => {
           className={`flex h-full transition-all duration-500 ease-in-out`}
         >
           {images.map((img) => (
-            <div key={img} className="relative w-full h-full">
-              <Image src={img} alt={img} fill className="rounded" />
+            <div key={img} className="relative w-full h-full bg-black/10 rounded">
+              <Image src={img} alt={img.slice(1, -4)} fill className="rounded" />
             </div>
           ))}
         </div>

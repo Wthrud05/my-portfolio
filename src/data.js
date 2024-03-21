@@ -2,7 +2,7 @@ export const links = [
   {url: '/', title: 'Home'},
   {url: '/about', title: 'About'},
   {url: '/projects', title: 'Projects'},
-  {url: '/contacts', title: 'Contacts'},
+  {url: '/contact', title: 'Contact'},
 ]
 
 export const socials = [
