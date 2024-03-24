@@ -71,7 +71,13 @@ export default function HomePage() {
                 View My Works
               </motion.button>
             </Link>
-            <Link href="/">
+            <Link
+              download="cv"
+              href="/cv.pdf"
+              alt="alt text"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <motion.button
                 initial={{scale: 1}}
                 whileHover={{scale: 1.1}}
